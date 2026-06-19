@@ -1,0 +1,169 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KINETIC</title>
+    <meta name="description" content="KINETIC tracks live heart rate, workout history, and training alerts from compatible Bluetooth heart rate devices.">
+    <meta property="og:title" content="KINETIC">
+    <meta property="og:description" content="Live heart rate tracking, workout history, and simple training alerts.">
+    <meta property="og:image" content="./assets/feature-graphic-1024x500.png">
+    <meta name="theme-color" content="#1A73E8">
+    <link rel="icon" href="./assets/store-icon-512.png">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="KINETIC">
+        <img src="./assets/store-icon-512.png" alt="">
+        <span data-i18n="brand">KINETIC</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features" data-i18n="navFeatures">Features</a>
+        <a href="#privacy" data-i18n="navPrivacy">Privacy</a>
+        <a href="#download" data-i18n="navDownload">Download</a>
+        <a href="./support.html">Support</a>
+      </nav>
+      <label class="language-picker">
+        <span data-i18n="languageLabel">Language</span>
+        <select id="languageSelect" aria-label="Language">
+          <option value="auto">System Default</option>
+          <option value="en">English</option>
+          <option value="zh-CN">简体中文</option>
+          <option value="zh-TW">繁體中文</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="es">Español</option>
+          <option value="pt">Português</option>
+          <option value="fr">Français</option>
+        </select>
+      </label>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">Bluetooth heart rate training</p>
+          <h1 data-i18n="heroTitle">Move with your heart.</h1>
+          <p class="hero-text" data-i18n="heroText">Connect a compatible BLE heart rate device, watch your live BPM, record sessions, and review your effort with clean training history.</p>
+          <div class="hero-actions">
+            <a class="primary-button" id="downloadButton" href="#" data-i18n="downloadButton">Download for Android</a>
+            <a class="secondary-button" href="#features" data-i18n="learnMore">Explore features</a>
+          </div>
+          <dl class="hero-stats" aria-label="KINETIC highlights">
+            <div>
+              <dt data-i18n="statLive">Live</dt>
+              <dd data-i18n="statLiveText">BPM display</dd>
+            </div>
+            <div>
+              <dt data-i18n="statBle">BLE</dt>
+              <dd data-i18n="statBleText">Connect and broadcast</dd>
+            </div>
+            <div>
+              <dt data-i18n="statData">Local</dt>
+              <dd data-i18n="statDataText">History by default</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="phone-stage" aria-label="KINETIC app preview">
+          <div class="phone-shell">
+            <div class="phone-screen">
+              <div class="app-topbar">
+                <span data-i18n="previewLive">Live</span>
+                <span class="status-dot" data-i18n="previewConnected">Connected</span>
+              </div>
+              <div class="heart-ring">
+                <span class="pulse-mark">閳?/span>
+                <strong>142</strong>
+                <span data-i18n="previewUnit">BPM</span>
+              </div>
+              <div class="zone-row">
+                <span data-i18n="previewBelow">Below</span>
+                <strong data-i18n="previewInZone">In target</strong>
+                <span data-i18n="previewAbove">Above</span>
+              </div>
+              <div class="chart-card">
+                <div class="chart-line" aria-hidden="true"></div>
+              </div>
+              <div class="summary-grid">
+                <div><span data-i18n="previewDuration">Duration</span><strong>42:18</strong></div>
+                <div><span data-i18n="previewAvg">Avg HR</span><strong>136</strong></div>
+                <div><span data-i18n="previewMax">Max HR</span><strong>171</strong></div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-note">
+            <strong data-i18n="noteTitle">Long Battery Mode</strong>
+            <span data-i18n="noteText">Built for longer outdoor sessions.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-band" id="features">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="featuresEyebrow">Training clarity</p>
+          <h2 data-i18n="featuresTitle">Everything you need during and after a session.</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="feature-icon">閳?/span>
+            <h3 data-i18n="featureLiveTitle">Real-time monitoring</h3>
+            <p data-i18n="featureLiveText">View heart rate from compatible Bluetooth devices with connect mode or broadcast mode.</p>
+          </article>
+          <article>
+            <span class="feature-icon">閳?/span>
+            <h3 data-i18n="featureZoneTitle">Target zones</h3>
+            <p data-i18n="featureZoneText">Set your lower and upper heart rate targets, then get simple zone-change alerts.</p>
+          </article>
+          <article>
+            <span class="feature-icon">閳?/span>
+            <h3 data-i18n="featureHistoryTitle">Workout history</h3>
+            <p data-i18n="featureHistoryText">Review duration, average BPM, maximum BPM, minimum BPM, and recorded heart-rate curves.</p>
+          </article>
+          <article>
+            <span class="feature-icon">閳?/span>
+            <h3 data-i18n="featureDataTitle">Data control</h3>
+            <p data-i18n="featureDataText">Import and export KINETIC history files through the system file picker when you choose.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="privacy-band" id="privacy">
+        <div>
+          <p class="eyebrow" data-i18n="privacyEyebrow">Privacy and health notice</p>
+          <h2 data-i18n="privacyTitle">Your workout history stays on your device by default.</h2>
+          <p data-i18n="privacyText">KINETIC is for personal fitness and workout review only. It is not a medical device and does not provide diagnosis, treatment advice, emergency monitoring, or clinical decision support.</p>
+        </div>
+        <ul>
+          <li data-i18n="privacyPoint1">Export and sharing happen only when you choose them.</li>
+          <li data-i18n="privacyPoint2">Ad privacy choices are available where required.</li>
+          <li data-i18n="privacyPoint3">Health, permissions, privacy notice, and terms are available in Settings.</li>
+        </ul>
+      </section>
+
+      <section class="download-band" id="download">
+        <div class="download-copy">
+          <p class="eyebrow" data-i18n="downloadEyebrow">Get KINETIC</p>
+          <h2 data-i18n="downloadTitle">Scan to download the app.</h2>
+          <p data-i18n="downloadText">Point your phone camera at the code, or open the Android download link directly.</p>
+          <a class="primary-button" id="downloadButtonBottom" href="#" data-i18n="downloadButton">Download for Android</a>
+        </div>
+        <div class="qr-panel">
+          <canvas id="downloadQr" width="264" height="264" aria-label="Download QR code"></canvas>
+          <p id="downloadUrlText"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-i18n="footerCopyright">Copyright 2024 Gaitimes. All rights reserved.</span>
+      <a href="./privacy.html" data-i18n="footerPrivacy">Privacy</a>
+      <a href="./terms.html">Terms</a>
+      <a href="./support.html">Support</a>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
